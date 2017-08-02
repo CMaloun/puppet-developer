@@ -6,6 +6,7 @@
 
 :hierarchy:
   - nodes/%{::hostname}
+  - roles/%{::role}
   - os/%{::kernel}
   - common
 
